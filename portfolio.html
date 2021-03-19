@@ -10,6 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
   integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <link rel="stylesheet" href="./css/styles.css">
 </head>
 
@@ -18,7 +19,7 @@
   <header class="header">
     <div class="container">
       <nav class="navigation">
-        <a lang="en" href="./portfolio.html" class="logo link">Web<span class="logo-light-theme">Studio</span></a>
+        <a lang="en" href="./portfolio.html" class="logo link animate__bounce">Web<span class="logo-light-theme">Studio</span></a>
   
         <ul class="navigation-list list">
           <li class="navigation-item">
@@ -72,8 +73,16 @@
         <h2 class="visually-hidden">Наши проекты</h2>
         <ul class="projects">
           <li class="project-list list">
-            <a class="project-link link" href=""><img src="images/portfolio/box-1.jpg"
-              alt="на экране монитора ноутбука трое специалистов компании" width="370" height="294">
+            <a class="project-link link" href="">
+              <div class="project-list-content-wrapper"><img src="images/portfolio/box-1.jpg"
+                alt="на экране монитора ноутбука трое специалистов компании"
+                width="370" height="294">
+              <p class="overlay">Технокряк это современная площадка
+                распространения
+                коронавируса. Компании используют эту платформу для
+                цифрового шпионажа и атак на защищённые сервера
+                конкурентов.</p>
+              </div>
               <div class="project-list-content">
                 <h3 class="project-name">Технокряк</h3>
                 <p class="project-cat">Веб-сайт</p>
