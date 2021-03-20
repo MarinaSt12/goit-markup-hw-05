@@ -790,11 +790,13 @@ img {
 
 .modal-close-btn {
   position: absolute;
+  box-sizing: border-box;
   display: flex;
   justify-content: center;
   align-items: center;
   top: 8px;
   right: 8px;
+  padding: 0;
 
   width: 30px;
   height: 30px;
@@ -806,11 +808,11 @@ img {
 }
 
 .close-btn-icon {
-  width: 18px;
-  height: 18px;
+  width: 11px;
+  height: 11px;
   fill: var(--text-color-black);
 
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
 }
 
 .is-hidden {
