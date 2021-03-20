@@ -771,7 +771,7 @@ img {
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.2);
   transition-property: all;
-  transition-duration: 2500ms;
+  transition-duration: 250ms;
   transition-timing-function: var(--timimg-function);
 }
 
@@ -795,7 +795,7 @@ img {
   align-items: center;
   top: 8px;
   right: 8px;
-  padding: 0;
+
   width: 30px;
   height: 30px;
 
@@ -806,8 +806,8 @@ img {
 }
 
 .close-btn-icon {
-  /* width: 11px;
-  height: 11px; */
+  width: 18px;
+  height: 18px;
   fill: var(--text-color-black);
 
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
