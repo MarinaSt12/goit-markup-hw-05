@@ -325,7 +325,7 @@ button {
 }
 
 .modal-btn {
-  /* display: inline-block; */
+  display: inline-block;
   text-align: center;
   min-width: 200px;
   padding: 10px 32px;
@@ -725,6 +725,9 @@ button {
 
 .project-link {
   display: block;
+  transition-property: box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: var(--timimg-function);
 }
 
 .project-list:hover .project-link,
