@@ -66,7 +66,7 @@ button {
   font: inherit;
   color: inherit;
   background-color: transparent;
-  }
+}
 
 /* ============ COMPONENTS ============ */
 
@@ -723,8 +723,12 @@ button {
   border-right: 1px solid #eeeeee;
 }
 
-.project-list:hover,
-.project-list:focus {
+.project-link {
+  display: block;
+}
+
+.project-list:hover .project-link,
+.project-list:focus .project-link {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -835,6 +839,4 @@ button {
   pointer-events: none;
 }
 
-
-
-  /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
+/* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
